@@ -1,0 +1,25 @@
+ /* Source mixins
+
+No media query necessary for xs breakpoint as it's effectively `@media (min-width: 0) { ... }` */
+/* @media media-breakpoint-up(sm) { ... }
+@media media-breakpoint-up(md) { ... }
+@media media-breakpoint-up(lg) { ... }
+@media media-breakpoint-up(xl) { ... }
+@media media-breakpoint-up(xxl) { ... }
+
+/* Usage */
+
+/* Example: Hide starting at `min-width: 0`, and then show at the `sm` breakpoint */
+/* .custom-class {
+  display: none;
+} */
+/* h1{
+    color: blue;
+  }
+  
+  /* Nếu chiều ngang lớn hơn 576px thì chạy code bên trong */
+/* @media (min-width: 576px) {
+    h1 {
+      color: red;
+    }
+} */

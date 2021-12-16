@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #e9e8ee;
+}
+nav{
+    background-color: black;
+    margin: none;
+}
+.navbar-brand{
+    color: #e9e8ee;
+    margin-left: 5vh;
+}
+.navbar-brand:hover {
+    color: #b4b1b8;
+}
+#navbarNavDropdown {
+    margin-left: 2vh;
+}
+#navbarDropdownMenuLink {
+    color: #e9e8ee;
+}
+#navbarDropdownMenuLink:hover {
+    color: #b4b1b8;
+}
+p {
+    color: black;
+}
+.ochua {
+    margin: 10vh 5vh;
+    display: flex;
+    flex-direction: row;
+    
+}
+.ochuatrai {
+    display: flex;
+    max-width: 100vh;
+    flex-direction: column;
+    text-align: center;
+}
+#tieude {
+    font-weight: 700;
+    font-size: 150%;
+    margin-top: 3vh;
+}
+.ochuaphai {
+    margin-left: 3vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    align-self: center;
+    font-weight: 600;
+    line-height: 200%;
+}
